@@ -65,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationOperate();
 
     }
+
+
     private void BottomNavigationOperate(){
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation_view);
         // 첫 화면 지정
@@ -95,10 +97,10 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 return true;
-
             }
         });
     }
+
 
     //RestfulRequest ( get 요청 함 )
     public void restfulRequest(){
