@@ -22,7 +22,7 @@ public class ConnectFlaskServer  {
     * 변수 선언부 serverdomain 과 url은 항상 고정적인 값임.
      */
 
-    final static String serverdomain ="http://54.172.24.248:5000/post";
+    final static String serverdomain ="http://13.125.164.239/post";
     final static String url = "url";
 
     /**
